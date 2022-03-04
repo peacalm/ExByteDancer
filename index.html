@@ -7,27 +7,33 @@
 
 <body>
 
-<main id="main" class="main">
-    <div class="content-wrapper">
-        <div id="vcomments"></div>
-        <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
-        <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
-        <script type="text/javascript">
-            new Valine({
-                el: '#vcomments',
-                appId: 'vgO2t0fhVLIEV7rQXTwm1uTE-gzGzoHsz',
-                appKey: '37CyuoPDht4Htfj7HW0hK619',
-                notify: false,
-                verify: false,
-                avatar: 'wavatar',
-                placeholder: '写留言...',
-                visitor: false
-            });
-        </script>
+<div class="container" id="mobile-panel">
+    <main id="main" class="main">
+        <div class="content-wrapper">
+            <div id="vcomments"></div>
+            <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+            <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+            <script type="text/javascript">
+                new Valine({
+                    el: '#vcomments',
+                    appId: 'vgO2t0fhVLIEV7rQXTwm1uTE-gzGzoHsz',
+                    appKey: '37CyuoPDht4Htfj7HW0hK619',
+                    notify: false,
+                    verify: false,
+                    avatar: 'wavatar',
+                    placeholder: '写留言...',
+                    visitor: false
+                });
+            </script>
 
 
+        </div>
+    </main>
+
+    <div class="back-to-top" id="back-to-top">
+        <i class="iconfont icon-up"></i>
     </div>
-</main>
+</div>
 
 </body>
 </html>
